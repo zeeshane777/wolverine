@@ -1,0 +1,257 @@
+.tete {
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#tourTete {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #FEED3D;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+#masque {
+   position: relative;
+  top: -30px; 
+  left: 40px;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 200px;
+  z-index: 3;
+}
+
+
+
+#masque-gauche {
+  position: absolute;
+  top: 0;
+  left: 90px;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #4B4945;
+  border-right: 130px solid transparent;
+  transform: rotate(-60deg);             
+  opacity: 0.9;
+  z-index: 3;
+}
+
+#masque-droit {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #4B4945;
+  border-left: 130px solid transparent;  
+  transform: rotate(60deg);              
+  opacity: 0.9;
+  z-index: 3;
+}
+
+
+#bouche {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 50px;
+  background-color: #F3CCB7;
+  border-radius: 0 0 60% 60%;
+  z-index: 2;
+}
+
+
+.corps-haut {
+  z-index: 1;
+  position: absolute;
+  top: calc(25% + 50px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+#ventre{
+     width: 170px;
+    height: 150px;
+    background-color: #FDF06E;
+
+}
+
+#ceinture{
+    position: relative;
+    width: 170px;
+    height: 40px;
+    background-color: #BF5E3C;
+
+
+}
+
+#bras{
+  position: relative; 
+  width: 250px;        
+  height: 90px;
+  margin: auto;
+}
+
+
+#bras-gauche{
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    height: 150px;
+    background-color: #F3CEC3 ;
+    left: -40px;
+
+}
+#bras-droit{
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    height: 150px;
+    background-color: #F3CEC3 ;
+    right: -40px;;
+}
+
+#epaules{
+  position: absolute;
+  z-index: 4; 
+
+}
+
+#epaule-droit{
+  position: absolute;
+   width: 0;
+  height: 0;
+  right: -60px;
+  border-top: 60px solid #568492;         
+  border-right: 60px solid transparent; 
+  top: 0;
+  opacity: 0.9;
+
+}
+#epaule-gauche{
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -60px;
+  border-top: 60px solid  #568492;         
+  border-left: 60px solid transparent; 
+  top: 0;
+  opacity: 0.9;
+
+
+}
+#mains {
+  position: absolute;
+  top: calc(25% + 50px + 20px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 50px;
+  z-index: 5;
+}
+#main-gauche {
+  position: absolute;
+  left: -40px;
+  width: 40px;
+  height: 40px;
+  top: 140px;;
+  background-color: #568492;
+  opacity: 0.8;
+}
+
+#main-droite {
+  position: absolute;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  top: 140px;
+  background-color: #568492;
+  opacity: 0.8;
+}
+
+.lamesG {
+  position: absolute;
+  top: 30px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px; 
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 6;
+}
+
+.lamesD {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 6;
+}
+
+.lameG,
+.lameD {
+  width: 5px;
+  height: 75px;
+  background-color: #D1D8E0;
+}
+
+    .corps-bas {
+  position: absolute;
+  top: calc(25% + 50px + 190px);
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+#slipe{
+    position: relative;
+    z-index: 2;
+    width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 60px solid  #568492;
+  opacity: 0.9;
+
+}
+#jambes {
+  position: relative;
+  z-index: 1;
+}
+
+#jambe-gauche{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 72px;
+    height: 155px;
+    background-color: #FEED3D;
+
+}
+
+#jambe-droite{
+     position: absolute;
+     right: 0;
+     top: -10px;
+    width: 72px;
+    height: 155px;
+    background-color: #FEED3D;
+}
