@@ -36,7 +36,7 @@
   left: 90px;
   width: 0;
   height: 0;
-  border-bottom: 100px solid #4B4945;
+  border-bottom: 90px solid #4B4945;
   border-right: 130px solid transparent;
   transform: rotate(-60deg);             
   opacity: 0.9;
@@ -48,7 +48,7 @@
   top: 0;
   width: 0;
   height: 0;
-  border-bottom: 100px solid #4B4945;
+  border-bottom: 90px solid #4B4945;
   border-left: 130px solid transparent;  
   transform: rotate(60deg);              
   opacity: 0.9;
